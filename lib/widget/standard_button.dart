@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vyacc/theme/text_theme.dart';
 
 class StandardButton extends StatelessWidget {
   final String text;
@@ -24,7 +25,10 @@ class StandardButton extends StatelessWidget {
         children: [
           if (icon != null) Icon(icon),
           if (icon != null) SizedBox(width: 8),
-          Text(text),
+          Text(
+            text,
+            style: AppTextStyles.textMRegular,
+          ),
         ],
       ),
     );

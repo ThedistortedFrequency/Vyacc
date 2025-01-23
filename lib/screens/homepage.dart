@@ -8,11 +8,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Center(
-          child: Text(
-            'ॐ श्रीं गं सौभ्याय गणपतये वर वरद सर्वजनं मे वशमानय स्वाहा।',
-            style: AppTextStyles.textLMedium,
-          ),
+        child: Text(
+          'ॐ श्रीं गं सौभ्याय गणपतये वर वरद सर्वजनं मे वशमानय स्वाहा।',
+          style: AppTextStyles.textLRegular,
         ),
       ),
     );
