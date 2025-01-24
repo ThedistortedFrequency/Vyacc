@@ -17,7 +17,7 @@ class StandardButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ButtonStyle(
-        elevation: WidgetStateProperty.all(0.0),
+        elevation: WidgetStateProperty.all(0.3),
       ),
       onPressed: onPressed,
       child: Row(
@@ -27,7 +27,7 @@ class StandardButton extends StatelessWidget {
           if (icon != null) SizedBox(width: 8),
           Text(
             text,
-            style: AppTextStyles.textMRegular,
+            style: AppTextStyles.textMMedium,
           ),
         ],
       ),
